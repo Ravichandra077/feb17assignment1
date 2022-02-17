@@ -1,0 +1,11 @@
+#SUM OF EVEN & ODD NUMBERS
+n=int(input("enter the n value:"))
+even_sum = 0
+odd_sum = 0
+for i in range(1,n+1):
+ if(i%2==0):
+  even_sum = even_sum + i
+ else:
+  odd_sum = odd_sum + i
+print("the sum of even numbers from 1 to {0}={1}".format(i,even_sum))
+print("the sum of odd numbers from 1 to {0}={1}".format(i,odd_sum))
